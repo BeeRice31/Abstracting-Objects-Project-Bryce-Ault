@@ -20,6 +20,9 @@ public class TrainTester {
         System.out.println(train2);
         System.out.println();
 
+        // Load cargo2 onto train2
+        train2.loadCargo(cargo2);
+
         // For train1: use a method WITH parameter and a WITHOUT parameter
         train1.moveForward(30.0); // increase speed
         train1.stop(); // set speed to 0

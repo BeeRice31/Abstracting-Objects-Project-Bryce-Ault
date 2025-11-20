@@ -44,6 +44,15 @@ public class Train {
     }
 
     /**
+     * Method to load new cargo onto the train.
+     *
+     * @param cargo Cargo object to be loaded onto the train
+     */
+    public void loadCargo(Cargo cargo) {
+        this.cargo = cargo;
+    }
+    
+    /**
      * Returns the current speed in mph.
      * @return speed
      */
