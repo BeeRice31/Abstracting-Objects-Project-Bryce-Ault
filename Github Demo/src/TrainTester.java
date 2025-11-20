@@ -2,6 +2,7 @@
  * Tester class for the Train and Cargo classes.
  * Demonstrates constructors, methods with and without parameters,
  * and prints before/after states to show internal state changes.
+ * @collaborator Copilot - Helped generate and debug the tester code
  */
 public class TrainTester {
     public static void main(String[] args) {

@@ -1,8 +1,7 @@
 /**
  * The Train class represents a real-world train with basic characteristics
  * such as speed, destination, direction, cargo, company, and fuel level.
- * It provides constructors, accessors/mutators, behavior methods, and
- * a descriptive toString method suitable for AP CSA level projects.
+ * @collaborator Copilot - Helped generate and debug methods and constructors
  */
 public class Train {
     private double speed;         // current speed in mph
@@ -51,7 +50,7 @@ public class Train {
     public void loadCargo(Cargo cargo) {
         this.cargo = cargo;
     }
-    
+
     /**
      * Returns the current speed in mph.
      * @return speed
@@ -209,6 +208,7 @@ public class Train {
     /**
      * Returns a multi-line description of the train including cargo info.
      * @return descriptive string
+     * Created by Copilot
      */
     @Override
     public String toString() {

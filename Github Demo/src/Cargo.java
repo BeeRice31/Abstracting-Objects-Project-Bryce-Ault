@@ -1,6 +1,7 @@
 /**
  * The Cargo class represents the cargo carried by a Train.
  * It stores the cargo type (for example: "coal", "passengers", "grain", "empty").
+ * @collaborator Copilot - Helped generate and debug methods
  */
 public class Cargo {
     private String cargoType; // e.g. "coal", "passengers", "grain", "empty"
